@@ -10,7 +10,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background: #169de6;
+    background: #f6ff00;
 }
 
 .clock{
@@ -27,12 +27,12 @@ body {
 
 .clock::before {
     content: "";
-    width: 550px;
-    height: 550px;
+    width: 570px;
+    height: 570px;
     position: absolute;
     border-radius: 50%;
-    background: linear-gradient(#00d9ff, #ee00ff);
-    box-shadow:  0 0 15px 15px rgba(0, 0, 0, 0.2);
+    background: linear-gradient(#870b0b, #00fffb);
+    box-shadow:  0 0 15px 15px rgba(114, 5, 5, 0.325);
     z-index: -1;
 }
 
@@ -41,9 +41,9 @@ body {
     position: absolute;
     text-align: center;
     inset: 20px;
-    color: rgb(8, 231, 243);
+    color: rgb(124, 241, 6);
     font-size: 50px;
-    text-shadow: 0 0 8px rgb(232, 7, 29);
+    text-shadow: 0 0 8px rgb(14, 1, 255);
   
 }
 
@@ -55,10 +55,12 @@ body {
 
 .center-dot{
     position: absolute;
-    width: 25px;
-    height: 25px;
- background-color: #e12e06;
+    width: 30px;
+    height: 30px;
+ background-color: #fffb01;
  border-radius: 50%;
+ border: 2px solid rgb(111, 0, 255);
+
 }
 
 .hour-hand, .minute-hand, .second-hand{
@@ -74,17 +76,17 @@ body {
 .hour-hand{
      width: 12px;
     height: 130px;
-    background-color: rgb(180, 8, 254);
+    background-color: rgb(69, 254, 8);
 }
 
 .minute-hand{
     width: 10px;
     height: 190px;
-    background-color: #e12e06;
+    background-color: #ef11ff;
 }
 
 .second-hand{
     width: 6px;
     height: 210px;
-    background-color: blue;
+    background-color: rgb(255, 0, 0);
 }
